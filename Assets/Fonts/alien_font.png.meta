@@ -1,0 +1,1077 @@
+fileFormatVersion: 2
+guid: f20c3d6c48c25a34b817a9eaa9ebc17e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7079480984066597973
+    second: alien_font_0
+  - first:
+      213: 6355648126052018883
+    second: alien_font_1
+  - first:
+      213: 4028899145919884266
+    second: alien_font_2
+  - first:
+      213: 596733728977405345
+    second: alien_font_3
+  - first:
+      213: -2061019736935909345
+    second: alien_font_4
+  - first:
+      213: 8177111318142195266
+    second: alien_font_5
+  - first:
+      213: 7049539045209340229
+    second: alien_font_6
+  - first:
+      213: 8362685464760909375
+    second: alien_font_7
+  - first:
+      213: 3960835298601564959
+    second: alien_font_8
+  - first:
+      213: 2856656842333987681
+    second: alien_font_9
+  - first:
+      213: -5816460343487941293
+    second: alien_font_10
+  - first:
+      213: 8307148024441425081
+    second: alien_font_11
+  - first:
+      213: -9216454272722158573
+    second: alien_font_12
+  - first:
+      213: -1545018061754565429
+    second: alien_font_13
+  - first:
+      213: -4253429278271066704
+    second: alien_font_14
+  - first:
+      213: 2736045475917398721
+    second: alien_font_15
+  - first:
+      213: 5832209750897342049
+    second: alien_font_16
+  - first:
+      213: -6464032701930643393
+    second: alien_font_17
+  - first:
+      213: -7860492503785355964
+    second: alien_font_18
+  - first:
+      213: -2955279559181655241
+    second: alien_font_19
+  - first:
+      213: -4398326709190788778
+    second: alien_font_20
+  - first:
+      213: 6935937912424002937
+    second: alien_font_21
+  - first:
+      213: 6267041821218700152
+    second: alien_font_22
+  - first:
+      213: 6628174786031112663
+    second: alien_font_23
+  - first:
+      213: 7309387588422669030
+    second: alien_font_24
+  - first:
+      213: 787215494477268186
+    second: alien_font_25
+  - first:
+      213: -2271591192783677769
+    second: alien_font_26
+  - first:
+      213: -1901112955999172064
+    second: alien_font_27
+  - first:
+      213: 7744406826468544603
+    second: alien_font_28
+  - first:
+      213: 1917275005541827549
+    second: alien_font_29
+  - first:
+      213: 2199487165960092881
+    second: alien_font_30
+  - first:
+      213: -7141216995921472070
+    second: alien_font_31
+  - first:
+      213: 1195171566479174479
+    second: alien_font_32
+  - first:
+      213: 3418323510602665496
+    second: alien_font_33
+  - first:
+      213: 8117831508208986788
+    second: alien_font_34
+  - first:
+      213: 3567268296581072731
+    second: alien_font_35
+  - first:
+      213: -1286019674625507693
+    second: alien_font_36
+  - first:
+      213: 8639308999775872642
+    second: alien_font_37
+  - first:
+      213: -742803774493272171
+    second: alien_font_38
+  - first:
+      213: -6397151251345383524
+    second: alien_font_39
+  - first:
+      213: -523383386056983861
+    second: alien_font_40
+  - first:
+      213: -4976416464023698980
+    second: alien_font_41
+  - first:
+      213: -6050144139739602413
+    second: alien_font_42
+  - first:
+      213: -1450718822163696556
+    second: alien_font_43
+  - first:
+      213: 7320419446374230469
+    second: alien_font_44
+  - first:
+      213: -2006187623362968353
+    second: alien_font_45
+  - first:
+      213: 809229097290065017
+    second: alien_font_46
+  - first:
+      213: 5181959563700728898
+    second: alien_font_47
+  - first:
+      213: 56374972277053262
+    second: alien_font_48
+  - first:
+      213: 3394635901289546798
+    second: alien_font_49
+  - first:
+      213: -1406261927851088777
+    second: alien_font_50
+  - first:
+      213: 4280181238871557971
+    second: alien_font_51
+  - first:
+      213: 6505825160464671601
+    second: alien_font_52
+  - first:
+      213: 3629332094026578270
+    second: alien_font_53
+  - first:
+      213: 7871567988962130820
+    second: alien_font_54
+  - first:
+      213: 5118529162498667964
+    second: alien_font_55
+  - first:
+      213: 8925632196623275679
+    second: alien_font_56
+  - first:
+      213: 3201412377246431413
+    second: alien_font_57
+  - first:
+      213: 2600194209843454641
+    second: alien_font_58
+  - first:
+      213: 8756426856651436270
+    second: alien_font_59
+  - first:
+      213: 3744028389985656684
+    second: alien_font_60
+  - first:
+      213: 6928190524041989859
+    second: alien_font_61
+  - first:
+      213: -6886147100562502370
+    second: alien_font_62
+  - first:
+      213: 14196176834611394
+    second: alien_font_63
+  - first:
+      213: -9197284120810647893
+    second: alien_font_64
+  - first:
+      213: -70566160356956842
+    second: alien_font_65
+  - first:
+      213: 1785050311176477512
+    second: alien_font_66
+  - first:
+      213: 9113435702835607570
+    second: alien_font_67
+  - first:
+      213: -4088340284903732972
+    second: alien_font_68
+  - first:
+      213: 5425808814785102546
+    second: alien_font_69
+  - first:
+      213: 6043992836254260351
+    second: alien_font_70
+  - first:
+      213: 3470787661501646778
+    second: alien_font_71
+  - first:
+      213: 6268229696867558250
+    second: alien_font_72
+  - first:
+      213: -197335524531487736
+    second: alien_font_73
+  - first:
+      213: -1269389443434765731
+    second: alien_font_74
+  - first:
+      213: -221075384474209475
+    second: alien_font_75
+  - first:
+      213: -1354523097499868823
+    second: alien_font_76
+  - first:
+      213: 8754610074890213414
+    second: alien_font_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alien_font_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b79faf7b6b7f630800000000000000
+      internalID: 3960835298601564959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 160
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163a18c4342e4a720800000000000000
+      internalID: 2856656842333987681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35531407228c74fa0800000000000000
+      internalID: -5816460343487941293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 160
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc4b657d1be84370800000000000000
+      internalID: 8307148024441425081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 160
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb3c97ba3981080800000000000000
+      internalID: -9216454272722158573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 160
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc7e89324efe8ae0800000000000000
+      internalID: -1545018061754565429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 160
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd28676b98c8f4c0800000000000000
+      internalID: -4253429278271066704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 160
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c20f593dd268f520800000000000000
+      internalID: 2736045475917398721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2159de849207560800000000000000
+      internalID: 7309387588422669030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad440064250ccea00800000000000000
+      internalID: 787215494477268186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6193778dfa970e0800000000000000
+      internalID: -2271591192783677769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 128
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ac6cbc6d3ed95e0800000000000000
+      internalID: -1901112955999172064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5094cf1af8a97b60800000000000000
+      internalID: 7744406826468544603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 128
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd34e0a95778b9a10800000000000000
+      internalID: 1917275005541827549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 128
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcf41f8ce5268e10800000000000000
+      internalID: 2199487165960092881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_31
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 128
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab55e1e5afc45ec90800000000000000
+      internalID: -7141216995921472070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca7bb855919cb8f0800000000000000
+      internalID: -523383386056983861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_41
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 96
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd14677979730fab0800000000000000
+      internalID: -4976416464023698980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312e8eeb5f1990ca0800000000000000
+      internalID: -6050144139739602413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454b5ffdae20edbe0800000000000000
+      internalID: -1450718822163696556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c96ff383ba579560800000000000000
+      internalID: 7320419446374230469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_45
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd44aac5cf69824e0800000000000000
+      internalID: -2006187623362968353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97462e59395fa3b00800000000000000
+      internalID: 809229097290065017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_47
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244f1da94c40ae740800000000000000
+      internalID: 5181959563700728898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96158b51373edb70800000000000000
+      internalID: 8925632196623275679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_57
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8ff456893bd6c20800000000000000
+      internalID: 3201412377246431413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_66
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bdfd7ecc5c5c810800000000000000
+      internalID: 1785050311176477512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_67
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 32
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218f0e69c7d697e70800000000000000
+      internalID: 9113435702835607570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_68
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 32
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419c46dfb2c4347c0800000000000000
+      internalID: -4088340284903732972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_69
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 32
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d20370be585c4b40800000000000000
+      internalID: 5425808814785102546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_74
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a076d609326ee0800000000000000
+      internalID: -1269389443434765731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_75
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33f4dfeb159eecf0800000000000000
+      internalID: -221075384474209475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961657d5b64c33de0800000000000000
+      internalID: -1354523097499868823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_77
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62813ecaa7f9e7970800000000000000
+      internalID: 8754610074890213414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_font_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babd39ebd81a0cd90800000000000000
+      internalID: -7079480984066597973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
