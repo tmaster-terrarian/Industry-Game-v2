@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1931638f041070b4d962d35ba552aaec, type: 3}
+  m_Name: belt_south_bottom
+  m_EditorClassIdentifier: 
+  framesPerSecond: 8
+  loopAnimation: 1
+  frames:
+  - sprite: {fileID: 4098043101408211882, guid: 8e74c1ada0167204e87a9506b37bfe1e, type: 3}
+    duration: 1
+  - sprite: {fileID: -1345984600435147371, guid: 8e74c1ada0167204e87a9506b37bfe1e, type: 3}
+    duration: 1
+  - sprite: {fileID: 6925244816035171002, guid: 8e74c1ada0167204e87a9506b37bfe1e, type: 3}
+    duration: 1
+  - sprite: {fileID: 5032253875707690662, guid: 8e74c1ada0167204e87a9506b37bfe1e, type: 3}
+    duration: 1

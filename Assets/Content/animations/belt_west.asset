@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1931638f041070b4d962d35ba552aaec, type: 3}
+  m_Name: belt_west
+  m_EditorClassIdentifier: 
+  framesPerSecond: 8
+  loopAnimation: 1
+  frames:
+  - sprite: {fileID: 4551973166866960470, guid: b945be0d0ec308040888de7597185e5b, type: 3}
+    duration: 1
+  - sprite: {fileID: 5011316181918383791, guid: b945be0d0ec308040888de7597185e5b, type: 3}
+    duration: 1
+  - sprite: {fileID: 6114671540253179457, guid: b945be0d0ec308040888de7597185e5b, type: 3}
+    duration: 1
+  - sprite: {fileID: 710755532671604040, guid: b945be0d0ec308040888de7597185e5b, type: 3}
+    duration: 1

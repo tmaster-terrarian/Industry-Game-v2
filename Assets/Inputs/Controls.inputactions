@@ -40,7 +40,15 @@
                 {
                     "name": "Shift",
                     "type": "Button",
-                    "id": "a6557974-4861-43b6-a3a3-a0f918638939",
+                    "id": "9544fe3c-8ebd-48ce-8b9f-093c62e4776d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Alt",
+                    "type": "Button",
+                    "id": "505e66e2-dad5-4735-a0cc-81033d6c264b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -115,12 +123,23 @@
                 },
                 {
                     "name": "",
-                    "id": "74dabb7e-45c9-43af-af43-a05a7f5682a4",
+                    "id": "3eeeb1c6-8275-4848-86cd-a2bd01d72d67",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Shift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15de432c-2873-4f07-b6e1-016e199c3fea",
+                    "path": "<Keyboard>/leftAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Alt",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

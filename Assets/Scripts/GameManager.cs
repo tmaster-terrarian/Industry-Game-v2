@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     public Texture2D[] cursors;
 
-    void Awake() // VERY First thing called
+    void Awake()
     {
         controls = new Controls();
     }
@@ -22,8 +22,6 @@ public class GameManager : MonoBehaviour
     {
         controls.Enable();
 
-        controls.Gameplay.Shift.performed += ctx => shift = ctx.ReadValue<float>();
-        controls.Gameplay.Shift.canceled += ctx => shift = ctx.ReadValue<float>();
         controls.Gameplay.MousePos.performed += OnMouseMove;
     }
 
@@ -34,12 +32,7 @@ public class GameManager : MonoBehaviour
         controls.Gameplay.MousePos.performed -= OnMouseMove;
     }
 
-    void Start() //first frame
-    {
-        
-    }
-
-    void Update() //every frame
+    void Update()
     {
         mousePos = Camera.main.ScreenToWorldPoint(_mousePos);
     }
@@ -56,7 +49,7 @@ public class GameManager : MonoBehaviour
 
     void OnShift()
     {
-        if(shift > 0)
+        if(Keyboard.current.shiftKey.isPressed)
         {
             Cursor.SetCursor(cursors[1], mousePos, CursorMode.Auto);
         }

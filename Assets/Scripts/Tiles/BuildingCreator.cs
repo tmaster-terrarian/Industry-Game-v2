@@ -35,20 +35,20 @@ public class BuildingCreator : Singleton<BuildingCreator>
     {
         playerInput.Enable();
 
+        playerInput.Gameplay.DeleteShortcut.performed += OnDeleteObject;
         playerInput.Gameplay.MousePos.performed += OnMouseMove;
         playerInput.Gameplay.LeftClick.performed += OnLeftClick;
         playerInput.Gameplay.RightClick.performed += OnRightClick;
-        playerInput.Gameplay.DeleteShortcut.performed += OnDeleteObject;
     }
 
     private void OnDisable()
     {
         playerInput.Disable();
 
+        playerInput.Gameplay.DeleteShortcut.performed -= OnDeleteObject;
         playerInput.Gameplay.MousePos.performed -= OnMouseMove;
         playerInput.Gameplay.LeftClick.performed -= OnLeftClick;
         playerInput.Gameplay.RightClick.performed -= OnRightClick;
-        playerInput.Gameplay.DeleteShortcut.performed -= OnDeleteObject;
     }
 
     private BuildingObjectBase SelectedObject
@@ -95,6 +95,11 @@ public class BuildingCreator : Singleton<BuildingCreator>
         }
     }
 
+    private void OnDeleteObject(InputAction.CallbackContext ctx)
+    {
+        buildingMap.SetTile(currentGridPos, null);
+    }
+
     private void OnMouseMove(InputAction.CallbackContext ctx)
     {
         mousePos = ctx.ReadValue<Vector2>();
@@ -102,7 +107,7 @@ public class BuildingCreator : Singleton<BuildingCreator>
 
     private void OnLeftClick(InputAction.CallbackContext ctx)
     {
-        if(selectedObject != null && !EventSystem.current.IsPointerOverGameObject())
+        if(selectedObject != null)
         {
             HandleDrawing();
         }
@@ -110,12 +115,10 @@ public class BuildingCreator : Singleton<BuildingCreator>
 
     private void OnRightClick(InputAction.CallbackContext ctx)
     {
-        SelectedObject = null;
-    }
-
-    private void OnDeleteObject(InputAction.CallbackContext ctx)
-    {
-        HandleDestroying();
+        if(selectedObject != null)
+        {
+            SelectedObject = null;
+        }
     }
 
     public void ObjectSelected(BuildingObjectBase obj)
@@ -136,16 +139,16 @@ public class BuildingCreator : Singleton<BuildingCreator>
 
     private void DrawItem()
     {
-        buildingMap.SetTile(currentGridPos, selectedObject.TileBase);
+        if(!EventSystem.current.IsPointerOverGameObject())
+            buildingMap.SetTile(currentGridPos, selectedObject.TileBase);
+        if(selectedObject.Category == BuildingCategory.Belt)
+        {
+            AnimationManager.SyncAnimators(AnimCategory.Belts, 0);
+        }
     }
 
     private void HandleDestroying()
     {
         buildingMap.SetTile(currentGridPos, null);
-
-        if(selectedObject == null)
-        {
-            buildingMap.SetTile(currentGridPos, null);
-        }
     }
 }

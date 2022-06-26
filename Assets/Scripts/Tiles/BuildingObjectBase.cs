@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public enum Category
+public enum BuildingCategory
 {
     None,
     Belt,
     Machine
 }
 
-[CreateAssetMenu (fileName = "Buildable", menuName = "BuildingObjects/Create Buildable")]
+[CreateAssetMenu (fileName = "Buildable", menuName = "BuildingObjects/Buildable")]
 public class BuildingObjectBase : ScriptableObject
 {
-    [SerializeField] Category category;
-    [SerializeField] TileBase tileBase;
+    [SerializeField] protected BuildingCategory category;
+    [SerializeField] protected TileBase tileBase;
 
     public TileBase TileBase
     {
@@ -24,13 +24,11 @@ public class BuildingObjectBase : ScriptableObject
         }
     }
 
-    public Category Category
+    public BuildingCategory Category
     {
         get
         {
             return category;
         }
     }
-
-
 }

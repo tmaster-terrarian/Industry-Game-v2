@@ -53,7 +53,15 @@ public class @Controls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""Shift"",
                     ""type"": ""Button"",
-                    ""id"": ""a6557974-4861-43b6-a3a3-a0f918638939"",
+                    ""id"": ""9544fe3c-8ebd-48ce-8b9f-093c62e4776d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Alt"",
+                    ""type"": ""Button"",
+                    ""id"": ""505e66e2-dad5-4735-a0cc-81033d6c264b"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -128,12 +136,23 @@ public class @Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""74dabb7e-45c9-43af-af43-a05a7f5682a4"",
+                    ""id"": ""3eeeb1c6-8275-4848-86cd-a2bd01d72d67"",
                     ""path"": ""<Keyboard>/leftShift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Shift"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""15de432c-2873-4f07-b6e1-016e199c3fea"",
+                    ""path"": ""<Keyboard>/leftAlt"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Alt"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -149,6 +168,7 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Gameplay_MousePos = m_Gameplay.FindAction("MousePos", throwIfNotFound: true);
         m_Gameplay_DeleteShortcut = m_Gameplay.FindAction("DeleteShortcut", throwIfNotFound: true);
         m_Gameplay_Shift = m_Gameplay.FindAction("Shift", throwIfNotFound: true);
+        m_Gameplay_Alt = m_Gameplay.FindAction("Alt", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -203,6 +223,7 @@ public class @Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_Gameplay_MousePos;
     private readonly InputAction m_Gameplay_DeleteShortcut;
     private readonly InputAction m_Gameplay_Shift;
+    private readonly InputAction m_Gameplay_Alt;
     public struct GameplayActions
     {
         private @Controls m_Wrapper;
@@ -212,6 +233,7 @@ public class @Controls : IInputActionCollection, IDisposable
         public InputAction @MousePos => m_Wrapper.m_Gameplay_MousePos;
         public InputAction @DeleteShortcut => m_Wrapper.m_Gameplay_DeleteShortcut;
         public InputAction @Shift => m_Wrapper.m_Gameplay_Shift;
+        public InputAction @Alt => m_Wrapper.m_Gameplay_Alt;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -236,6 +258,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @Shift.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShift;
                 @Shift.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShift;
                 @Shift.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShift;
+                @Alt.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAlt;
+                @Alt.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAlt;
+                @Alt.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAlt;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -255,6 +280,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @Shift.started += instance.OnShift;
                 @Shift.performed += instance.OnShift;
                 @Shift.canceled += instance.OnShift;
+                @Alt.started += instance.OnAlt;
+                @Alt.performed += instance.OnAlt;
+                @Alt.canceled += instance.OnAlt;
             }
         }
     }
@@ -266,5 +294,6 @@ public class @Controls : IInputActionCollection, IDisposable
         void OnMousePos(InputAction.CallbackContext context);
         void OnDeleteShortcut(InputAction.CallbackContext context);
         void OnShift(InputAction.CallbackContext context);
+        void OnAlt(InputAction.CallbackContext context);
     }
 }
